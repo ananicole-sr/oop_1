@@ -1,32 +1,45 @@
-# Prerequisites
-*.d
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcscmblueprint
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
 
-# Precompiled Headers
-*.gch
-*.pch
+# CocoaPods
+Pods/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Carthage
+Carthage/Build/
 
-# Fortran module files
-*.mod
-*.smod
+# Acciones de fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/*/.png
+fastlane/test_output
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Xcode Playground
+timeline.xctimeline
+playground.xcworkspace
 
-# Executables
-*.exe
-*.out
-*.app
+# Archivos de usuario
+*.moved-aside
+*.xcuserstate
+
+# Archivos de estado
+*.swp
+*.swo
+
+# Archivos de cache
+*.xcuserdatad
